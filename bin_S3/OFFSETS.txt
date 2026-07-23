@@ -1,0 +1,7 @@
+BFMIDI PROJECT ZERO - binarios de producao ESP32-S3 (flash 16 MB)
+
+esptool --chip esp32s3 write_flash offsets:
+  0x0       bootloader.bin
+  0x8000    partitions.bin
+  0x10000   firmware.bin
+  0x400000  littlefs.bin
