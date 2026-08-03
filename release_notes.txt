@@ -1,0 +1,7 @@
+v12.8 — Validação do sistema de atualização
+• Promove o conjunto validado para a versão pública 12.8.
+• Firmware e editor são instalados juntos por uma única ação.
+• Pelo cabo, ESP32-S2 e ESP32-S3 usam esptool e gravam firmware + LittleFS.
+• Reinicialização automática validada ao concluir a gravação nos dois chips.
+• OTA é usado somente quando o Editor está conectado ao pedal em modo STA.
+• Em modo AP, a atualização fica disponível somente pelo cabo USB.
